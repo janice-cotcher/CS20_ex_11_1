@@ -1,7 +1,7 @@
 # CS 20 Conditional Branching Example
 # Create a circle that changes sizes when a key is pressed
 
-# setting the initial valaue of the global variable radius
+# setting the initial value of the global variable radius
 radius = 10
 
 
