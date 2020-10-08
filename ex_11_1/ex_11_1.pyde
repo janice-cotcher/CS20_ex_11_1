@@ -18,14 +18,18 @@ def keyPressed ():
         radius = radius + 5
     # add code so the radius is decreased by 5 is the minus
     # sign is pressed
-    
+
+
     # add code so if any other key is pressed, a message is printed
     # telling the user which keys are valid.
+
 
 
 def draw ():
     # we need to say that radius is a global variable in order to
     # change the value. We need to do this EVERYTIME we use it.
     global radius
+    # black background constantly refreshed so there's only 1 circle
+    background(0)
     # a circle with a radius that changes when a key is pressed
     ellipse (150, 150, radius , radius)
